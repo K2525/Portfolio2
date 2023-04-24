@@ -1,0 +1,450 @@
+ body, h1, h2, h3, h4, h5, h6, ul,li ol, p {
+	margin: 0;
+	padding: 0;
+}
+ ul, ol, li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+*{margin:0; padding:0;}
+
+#header .top .gnb {
+	margin-top: 10px;
+}
+#header .top .gnb .logo {
+	position: absolute;
+	top: 15px;
+	left: 230px;
+}
+#header .top .gnb .top_menu {
+	position: absolute;
+	top: 0;
+	left: 400px;
+}
+#header .top .gnb .top_menu a {
+	padding: 10px 20px;
+}
+#header .top .gnb .top_menu .dep1 {
+	margin-left: 20px;
+	margin-top: 5px;
+}
+#header .top .gnb .top_menu .dep1 > li {
+	display: inline-block;
+	width: 180px;
+	margin-top: 8px;
+	background: #fff;
+	font-size: 16px;
+	text-align: center;
+	vertical-align: top;
+}
+#header .top .gnb .top_menu .dep1 > li:hover > a {
+	background: #e29c67;
+	color: #000;
+}
+#header .top .gnb .top_menu .dep1 > li > a {
+	display: block;
+	font-size: 18px;
+	font-weight: 600;
+}
+#header .top .gnb .top_menu .dep1 > li a:hover ~ .dep2 {
+	display: block;
+	background-color: #fff;
+}
+#header .top .gnb .top_menu .dep1 li:hover > .dep2 {
+	display: block;
+}
+#header .top .gnb .top_menu .dep2 {
+	display: none;
+}
+#header .top .gnb .top_menu .dep2 li a {
+	display: block;
+	padding: 10px 0px;
+	line-height: 2;
+}
+#header .top .gnb .top_menu .dep2 a:hover {
+	text-decoration: underline;
+}
+#header .top .img {
+	text-align: center;
+	margin-top: 70px;
+}
+#header .top .img ul {
+	position: absolute;
+	top: 430px;
+	left: 42%;
+	text-align: justify;
+}
+#header .top .img li {
+	line-height: 1.2;
+}
+#header .top .img li.title {
+	font-size: 70px;
+	font-weight: 600;
+	text-align: decoration;
+}
+#header .inner .menu {
+	position: absolute;
+	top: 100%;
+	left: 500px;
+}
+#header .menu .inner .menu_title {
+	text-align: center;
+	margin: 70px;
+}
+#header .menu .inner .menu_title h3 {
+	margin-top: 30px;
+}
+#header .menu .inner .main_item {
+	text-align: center;
+	margin-top: 70px;
+}
+#header .menu .inner .main_item li {
+	display: inline-block;
+	width: 300px;
+	height: 60px;
+	margin: 15px;
+	font-size: 22px;
+	font-weight: 500;
+	text-align: center;
+	border: 2px solid;
+}  
+#header .menu .inner .main_item li.Noodle {
+	background-color: #e29c67;
+	box-shadow: 3px 3px 1px #3d3d3d;
+}
+#header .menu .inner .main_item li a p {
+	margin-top: 12px;
+	font-weight: 700;
+}
+#header .menu .inner .slide_wrapper {
+	position: relative;
+	width: 1020px;
+	height: 420px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#header .menu .inner .slide_wrapper .slides {
+	position: absolute;
+	/* width: 2880px; */
+}
+#header .menu .inner .slide_wrapper .slides li {
+	text-align: center;
+	margin-top: 50px;
+}
+#header .menu .inner .slide_wrapper .slides li.list:first-child {
+	margin-left: 40px;
+} 
+#header .menu .inner .slide_wrapper .slides li:not(:last-child) {
+	float: left;
+	margin-right: 70px;
+}
+#header .menu .inner .slide_wrapper li p {
+	text-align: center;
+	line-height: 1.5;
+	font-size: 17px;
+}
+#header .menu .inner .slide_wrapper li p.border {
+	border-width: 50px;
+	border-color: #222;
+}
+#header .menu .inner .slide_wrapper li p.title {
+	font-size: 22px;
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+#header .menu .inner .slide_wrapper li .text {
+	height: 130px;
+	box-sizing: border-box;
+}
+#header .menu .inner .slides {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#header .menu .inner .controls {
+	text-align: center;
+	height: 102px;
+	margin-top: 20px;
+}
+#header .menu .inner .controls span {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	margin: 0 10px;
+	border-radius: 12px;
+}
+#header .animation {
+	width: 100%;
+	margin-top: 30px;
+}
+#header .animation .inner .text_box {
+	width: auto;
+	height: 50px;
+	border: 0;
+	background-color: #222;
+	text-align: center;
+}
+#header .animation .inner p {
+	font-size: 30px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #fff;
+}
+#header .community .community_title {
+	text-align: center;
+	margin: 70px;
+}
+#header .community .community_title h3 {
+	margin-top: 30px;
+	font-weight: 600;
+}
+#header .community .bottom {
+	width: 1020px;
+	position: relative;
+	left: 17%;
+}
+#header .community .bottom .inner {
+	display: flex;
+	padding: 20px;
+	border: solid 3px #000;
+}
+#header .community .bottom .inner .community_img {
+	float: left;
+	border: 1px solid #000;
+ }
+ #header .community .bottom .inner .community_desc{
+	float: left;
+	margin-top: 70px;
+	margin-left: 100px;
+ }
+ #header .community .bottom .inner .community_desc span.box {
+	border: 1px solid #000;
+	padding: 10px 25px;
+	background-color: #e29c67;
+	font-size: 16px;
+ }
+ #header .community .bottom .inner .community_desc h2 {
+	margin-top: 30px;
+	margin-bottom: 20px;
+ }
+ #header .community .bottom .inner .community_desc span.date {
+	margin-top: 20px;
+ }
+  #header .community .community_btn {
+	margin: auto;
+	margin-top: 70px;
+	width: 250px;
+	background-color: #000;
+}
+#header .community .community_btn p {
+	text-align: center;
+	font-size: 20px;
+	font-weight: 600;
+	color: #fff;
+	padding: 20px;
+}	
+#header .brand_story .inner {
+	margin-top: 100px;
+	position: relative;
+}
+#header .brand_story .inner .bg {
+	height: 600px;
+    background: url(../images/main-bg1.jpg) no-repeat center center;
+	background-position: center;
+}
+#header .brand_story .inner .box {
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	bottom: -30%;
+	left: 150px;
+	border: solid 3px #000;
+	background-color: #fff;
+	padding: 50px 50px; 
+}
+#header .brand_story .inner .box h1 {
+	font-size: 50px;
+	font-weight: 600;
+	margin-bottom: 30px; 
+}
+#header .brand_story .inner .box .border {
+	border: solid 3px #000;
+	width: 120px;
+	margin-bottom: 20px;
+}
+#header .brand_story .inner .box span {
+	line-height: 1.5;
+	font-size: 20px;
+}
+#header .brand_story .inner .brand_story_btn {
+	margin-top: 80px;
+	width: 250px;
+    background-color: #000;
+}
+#header .brand_story .inner .brand_story_btn p {
+	text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    padding: 20px;
+}
+#header .store {
+	position: relative;
+	top: 0;
+	left: 0;
+}
+#header .store .inner .store_title {
+	text-align: center;
+    margin-top: 300px;
+}
+#header .store .inner .store_title h3 {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+#header .inner .store_wrapper {
+	position: absolute;
+	top: 100%;
+}
+#header .store .inner .store_wrapper {
+	position: relative;
+	width: 1240px;
+	height: 450px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#header .store .inner .store_wrapper .store_list {
+	position: absolute;
+}
+#header .store .inner .store_wrapper .store_list .text {
+	text-align: left;
+	margin-left: 20px;
+}
+#header .store .inner .store_wrapper .store_list li h2 {
+	padding: 20px 0 20px 0;
+}
+#header .store .inner .store_wrapper .store_list li{
+	text-align: center;
+	margin-top: 50px;
+}
+/* #header .store .inner .store_wrapper .store_list li.list:first-child {
+	margin-left: 40px;
+} */
+#header .store .inner .store_wrapper .store_list li:not(:last-child) {
+	float: left;
+	margin-right: 20px;
+}
+#header .store .inner .store_wrapper li p {
+	line-height: 1.5;
+	font-size: 16px;
+}
+#header .store .inner .store_wrapper li p.border {
+	border-width: 50px;
+	border-color: #222;
+}
+#header .store .inner .store_wrapper li p.title {
+	font-size: 22px;
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+#header .store .inner .store_wrapper li .text {
+	height: 130px;
+	box-sizing: border-box;
+}
+#header .store .inner store {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#header .Franchise {
+	position: relative;
+	top: 100%;
+	left: 0;
+	margin-top: 60px;
+}
+#header .Franchise .inner {
+	position: absolute;
+	width: 100%;
+	height: auto;
+	background-color: #dfa981;
+}
+#header .Franchise .inner .Franchise_title {
+ 	text-align: center;
+ 	margin: 70px;
+ }
+ #header .Franchise .inner .Franchise_title h3 {
+ 	margin-top: 30px;
+ }
+ #header .Franchise .inner .box {
+	position: relative;
+	left: 23%;
+	width: 700px;
+	/* height: 400px; */
+	text-align: center;
+	border: solid 3px #000;
+    background-color: #fff;
+    padding: 50px 50px;
+ }
+#header .Franchise .inner .box h1 {
+	font-size: 50px;
+	margin-bottom: 30px;
+}
+#header .Franchise .inner .box span {
+	line-height: 1.5;
+    font-size: 18px;
+  }
+#header .Franchise .inner .box p {
+	position: relative;
+	left: 120px;
+	margin-top: 60px;
+	width: 400px;
+	text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    padding: 20px;
+	background-color: #222;
+}
+#header .Franchise .inner .Franchise_animation .text_box {
+	margin-top: 30px;
+	height: 50px;
+	border: 0;
+	background-color: #222;
+	text-align: center;
+}
+#header .Franchise .inner .Franchise_animation p {
+	font-size: 30px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #fff;
+}
+#header .footer {
+	position: relative;
+	top: 1048px;
+	height: 250px;
+	background-color: #222;
+}
+#header .footer .inner {
+	padding: 70px 130px;
+	font-size: 16px;
+}
+#header .footer .inner .text {
+	float: left;
+	color: #fff;
+	font-size: 16px;
+}
+#header .footer .inner .text li {
+	display: inline-block;
+	text-align: left;
+	padding: 0 20px;
+}
+#header .footer .inner .text li.address {
+	padding: 30px 0;
+}
+#header .footer .inner .infors {
+	float: right;
+	color: #fff;
+	margin-top: 72px;
+}
